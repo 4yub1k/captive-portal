@@ -7,10 +7,10 @@ It is SQlite base, So just download and run. redirect user to your server.(Dnsma
 ```
 Linux:
     pip3 install django
-    python3 manage.py runserver <ip>:<port>
+    python3 manage.py runserver  --insecure <ip>:<port>
 Windows:
     pip install django
-    python manage.py runserver <ip>:<port>
+    python manage.py runserver  --insecure <ip>:<port>
 ```
 ### Login Page :
 <img src="https://user-images.githubusercontent.com/45902447/149328452-5cf3b882-c1f4-428e-8923-2c7a5decccd9.png" width="800" height="400">
