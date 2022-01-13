@@ -18,3 +18,5 @@ def success(request):
         # }
         return render(request,'pages/success.html')
     return render(request,'pages/success.html')
+def error_404_view(request, exception):
+    return render(request,'pages/login.html')
