@@ -1,0 +1,25 @@
+{% load static %}
+body { margin:0px; padding:0px; font:12px/2 tahoma,arial,"Times New Roman"; color:#000; }
+#login{ margin-top:100px;}
+table {border-collapse: collapse;border-spacing: 0; background-color:#eee;}
+.ct_text { width:160px; border:1px #87a6c3 solid; background:#fff; }
+.buttonX { width:60px; padding:5px; border: 1px solid #BACFEB; background-color: #CADAF4; cursor:pointer;}
+.buttonX_over {  width:60px; padding:5px; color: #fff; border: 1px solid #90B1DF; background-color: #A3C0E8; cursor:pointer; }
+.masthead .brand { float: left; width: 980px; height: 90px; background: url(/static/logo.gif) no-repeat 0 0; }
+.main-content {width: 700px; margin: 0px auto 0; padding: 2px 26px 0 20px; background-color: #f2f2f2; *position:relative; *top: 30px; }
+.masthead {
+	background: url(/static/logoright.gif) repeat-x;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 90px;
+	min-width: 1000px;
+	z-index: 1000;
+}
+.container {
+	width:980px;
+	margin-right: auto;
+	margin-left: 0;
+	/* For ie7 */
+	*zoom: 1;
+}

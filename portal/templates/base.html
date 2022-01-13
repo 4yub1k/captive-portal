@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Change title -->
+    <title>ADSL2+ WIFI-MODEM WITH 3G/4G USB PORT</title>
+</head>
+<body>
+    <div class="masthead">
+        <div class="container">
+            <a class="brand" href={% url 'index' %}></a>
+        <div class="easy-logo"></div>
+        </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

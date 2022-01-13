@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="{% url 'success' %}" id="login" method="POST">
+	{% csrf_token %}
+	<table width="400" height="230" align="center">
+		<tbody><tr>
+			<td colspan="2" height="65" style="background-color:#C0D451; font-size:24px; color:#fff; padding-left:20px">Login</td>
+		</tr>
+		<tr>
+			<td width="35%" align="center">Username:</td>
+			<td><input type="text" name="username" id="username" class="ct_text" maxlength="55" autofocus="" required></td>
+		</tr>
+		<tr>
+			<td align="center">Password:</td>
+			<td><input type="password" name="password" id="password" class="ct_text" maxlength="88" required></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input name="button" id="loginBtn" type="Submit"  value="Login" class="buttonX" onmouseover="this.className='buttonX_over';" onmouseout="this.className='buttonX'">
+				<input class="buttonX" id="rewBtn" type="reset" value="Cancel" onmouseover="this.className='buttonX_over';" onmouseout="this.className='buttonX'"></td>
+		</tr>
+	</tbody></table>
+</form>
+{% endblock %}
