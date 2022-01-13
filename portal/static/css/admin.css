@@ -1,0 +1,6 @@
+#header {
+    background: #C0D451;
+}
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #C0D451;
+}
